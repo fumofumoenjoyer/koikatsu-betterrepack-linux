@@ -1,5 +1,7 @@
 # koikatsu-betterrepack-linux
 
+I copy-pasted this from somewhere i dont remember for safekeeping, so if someone knows let me know so i can give credit.
+
  Start & End
 This Guide assumes you know how to use, search & download things especially when you are using Linux anyway.
 
