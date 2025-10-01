@@ -18,7 +18,9 @@ Now the game + HF patch or rather mods are working fine. But we also want to use
 [You have to install wine, to do so just search online for the glorious eggroll post for "how to get out of wine dependency hell" and follow the steps needed for your specific distro of choice.]
 
 winetricks corefonts
+
 winecfg
+### You might wanna try installing wine mono and skipping installing dotnet since it can cause issues in some setups and as of lately it will work with only wine mono
 Inside of winecfg add application and point it to KKManager.exe then go to libraries and add winhttp Native , Builtin and close winecfg then proceed with the following:
 winetricks dotnet472
 This should install 4.0 and 4.5 if i'm not mistaken but probably gonna stop working at 4.6 and onwards [IF it should install just fine though you are done and can ignore the rest of this guide and just open KKManager and update your mods.] Just force quit the command with ctrl+c and enter this next command:
